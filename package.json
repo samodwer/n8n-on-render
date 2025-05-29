@@ -4,7 +4,7 @@
   "description": "Deploy n8n on Render.com",
   "main": "index.js",
   "scripts": {
-    "start": "n8n start --port=10000 --host=0.0.0.0"
+    "start": "n8n"
   },
   "dependencies": {
     "n8n": "^1.94.1"
