@@ -4,7 +4,7 @@
   "description": "Deploy n8n on Render.com",
   "main": "index.js",
   "scripts": {
-    "start": "n8n"
+    "start": "cross-env NODE_ENV=production n8n start"
   },
   "dependencies": {
     "n8n": "^1.94.1"
